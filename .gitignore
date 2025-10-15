@@ -5,3 +5,9 @@
 # React Router
 /.react-router/
 /build/
+
+# vscode workspace settings
+.vscode
+
+# webstorm workspace settings 
+.idea

@@ -18,7 +18,8 @@ export default function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (auth.isAuthenticated) navigate('/auth?next=/');
+    if (!auth.isAuthenticated) navigate('/auth?next=/');
+    // dont get confused : next is a query string key value pair here
   }, [auth.isAuthenticated]);
 
   return (

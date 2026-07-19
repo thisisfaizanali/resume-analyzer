@@ -4,3 +4,9 @@
 # React Router
 /.react-router/
 /build/
+
+.claude
+.vscode
+CLAUDE.md 
+AGENTS.md
+AGENT.md 
